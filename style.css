@@ -1,0 +1,38 @@
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	background: rgb(255,140,4);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	border: solid white 0.1em;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+}	
+
+p {
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	background: rgb(255,165,0);
+	border: solid white 0.1em;
+}
+
+.news {
+	width: 50%;
+	order: 3;
+	font-size: 18px;
+}
+
+#breaking {
+	font-size: 25px;
+	order: -1;
+	width: 100%;
+	text-align: center;
+}
